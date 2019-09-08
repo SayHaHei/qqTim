@@ -1,0 +1,80 @@
+a {
+    text-decoration: none;
+}
+
+.navigator li {
+    list-style: none;
+    font-weight: bold;
+}
+
+/* left */
+.logo {
+    position: absolute;
+    left: 8%;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    left: 12%;
+    clear: both;
+}
+
+.top-left>li {
+    float: left;
+    /* float属性不能继承 */
+    margin-left: 25px;
+    font-size: 1.25em;
+    line-height: 45px;
+}
+
+.top-left>li a {}
+
+.navigator>ul>li a:hover {
+    background-color: rgb(106, 147, 201);
+}
+
+/* right */
+.topTool {
+    position: absolute;
+    float:right;
+    right: 12%;
+    clear: both;
+    width: 350px;
+}
+.barzc{
+    position: absolute;
+    float: right;
+    width: 96px;
+    height: 0;
+    overflow:hidden;
+    background: url(../images/icons.png) no-repeat 0 244px;
+    background-position-x: 0px;
+    background-position-y: -244px;
+    padding:39px 0 0;
+    margin:18px 0 0 0;
+    text-align: center;
+    line-height: 30px;
+}
+.top-right{
+    position: absolute;
+    float:right;
+    right:3%;
+    top:-10px;
+}
+.top-right li {
+    float: right;
+    /* float属性不能继承 */
+    margin-left: 20px;
+    font-size: 1.25em;
+    line-height: 45px;
+}
+.flashData{
+    position: absolute;
+    float:right;
+    top:45px;
+    right:3%;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing:0.04em;
+}
